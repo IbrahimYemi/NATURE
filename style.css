@@ -7,10 +7,10 @@
   font-family: "Poppins", sans-serif;
 }
 
-section{
+body{
   position: relative;
   width: 100%;
-  min-height: 50px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -27,6 +27,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 10px 10px 40px 10px;
 }
 
 header .logo{
@@ -43,11 +44,12 @@ header .logo{
 
 header .navigation a{
   color: #fff;
-  font-size:13px;
+  margin-right: 7px;
+  font-size:17px;
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 1px;
-  padding: 2px 5px;
+  padding: 3px 8px;
   border-radius: 20px;
   transition: 0.3s;
   transition-property: background;
@@ -84,11 +86,16 @@ header .navigation a:hover{
 }
 
 .content .info p{
-  font-size: 16px;
+  font-size: 22px;
+  width: 50ch;
+  line-height: 40px;
   color:#fff;
+  text-align: justify;
+  margin-left: 30px;
+  margin-bottom: 50px;
   font-weight: 500;
   margin-bottom: 40px;
-  text-shadow:.5px 1px #4C9A2A;
+  text-shadow:1px 2px #141414;
 }
 
 .content .info-btn{
@@ -118,7 +125,7 @@ header .navigation a:hover{
 .media-icons a{
   position: relative;
   color: #fff;
-  font-size: 25px;
+  font-size: 35px;
   transition: 0.3s;
   transition-property: transform;
 }
